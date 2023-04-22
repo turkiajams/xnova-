@@ -1,0 +1,103 @@
+/* estilos generales */
+body {
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+/* barra de navegación */
+nav {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* área de texto principal */
+section {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+section h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+section p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color: #444;
+}
+
+/* galería de imágenes */
+.gallery-container {
+	background-color: #f7f7f7;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.gallery img {
+	max-width: 200px;
+	margin: 10px;
+	border: 5px solid #fff;
+	border-radius: 5px;
+}
+
+.gallery img:hover {
+	border-color: #333;
+}
+
+/* pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font
+}
